@@ -1,0 +1,14 @@
+<!--
+ CONFIDENTIAL
+ Copyright 2016 Red Hat, Inc. and/or its affiliates.
+ This is unpublished proprietary source code of Red Hat.
+-->
+<div layout="column">
+  <md-button class="md-raised" ng-hide="ctrl.cameraOn" ng-click="ctrl.startCamera()">Start Camera</md-button>
+  <md-button class="md-raised" ng-show="ctrl.cameraOn" ng-click="ctrl.stopCamera()">Stop Camera</md-button>
+  <md-card>
+    <video  ng-show="ctrl.cameraOn" autoplay style="transform: rotateY(180deg);"></video>
+    <canvas ng-hide="ctrl.cameraOn"></canvas>
+  </md-card>
+  <md-button class="md-raised" ng-show="ctrl.cameraOn" ng-click="ctrl.snap()">Snap Photo</md-button>
+</div>
