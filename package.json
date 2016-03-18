@@ -1,0 +1,11 @@
+{
+  "name": "fh-wfm-camera",
+  "version": "0.0.0",
+  "description": "A camera module for WFM.",
+  "main": "camera.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bleathem@gmail.com",
+  "license": "SEE LICENSE IN LICENSE.txt"
+}
