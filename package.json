@@ -1,6 +1,6 @@
 {
   "name": "fh-wfm-camera",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A camera module for WFM.",
   "main": "lib/camera.js",
   "scripts": {
