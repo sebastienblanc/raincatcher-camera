@@ -13,8 +13,8 @@ ngModule.run(['$templateCache', function ($templateCache) {
     ' This is unpublished proprietary source code of Red Hat.\n' +
     '-->\n' +
     '<div class="wfm-camera" flex>\n' +
-    '  <md-button class="md-icon-button" aria-label="Back" ng-click="ctrl.cancel()" flex>\n' +
-    '    <md-icon md-font-set="material-icons">arrow_back</md-icon>\n' +
+    '  <md-button class="md-icon-button wfm-camera-close" aria-label="Back" ng-click="ctrl.cancel()" flex>\n' +
+    '    <md-icon md-font-set="material-icons">close</md-icon>\n' +
     '  </md-button>\n' +
     '  <video  ng-show="ctrl.cameraOn" autoplay style="transform: rotateY(180deg)"></video>\n' +
     '  <canvas ng-hide="ctrl.cameraOn"></canvas>\n' +
