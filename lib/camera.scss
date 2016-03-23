@@ -1,5 +1,9 @@
 .wfm-camera video {
   position: relative;
-  left: -50%;
   overflow: hidden;
+  transform: rotateY(180deg)
+}
+
+.wfm-camera canvas {
+  transform: rotateY(180deg)
 }
