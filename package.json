@@ -2,7 +2,7 @@
   "name": "fh-wfm-camera",
   "version": "0.0.1",
   "description": "A camera module for WFM.",
-  "main": "lib/ng-camera.js",
+  "main": "lib/angular/camera-ng.js",
   "scripts": {
     "build": "wfm-template-build -m 'wfm.camera.directives'",
     "watch": "wfm-template-build -w -m 'wfm.camera.directives'",
@@ -11,7 +11,7 @@
   "author": "bleathem@gmail.com",
   "license": "SEE LICENSE IN LICENSE.txt",
   "devDependencies": {
-    "fh-wfm-template-build": "0.0.4"
+    "fh-wfm-template-build": "0.0.5"
   },
   "dependencies": {
     "q": "^1.4.1"
