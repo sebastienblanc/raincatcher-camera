@@ -11,9 +11,9 @@
   "author": "bleathem@gmail.com",
   "license": "SEE LICENSE IN LICENSE.txt",
   "devDependencies": {
-    "fh-wfm-template-build": "0.0.5"
+    "fh-wfm-template-build": "0.0.7"
   },
   "dependencies": {
-    "q": "^1.4.1"
+    "q": "1.4.1"
   }
 }
