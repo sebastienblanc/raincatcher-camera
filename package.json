@@ -6,7 +6,7 @@
   "scripts": {
     "build": "wfm-template-build -m 'wfm.camera.directives'",
     "watch": "wfm-template-build -w -m 'wfm.camera.directives'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "author": "bleathem@gmail.com",
   "license": "MIT",
