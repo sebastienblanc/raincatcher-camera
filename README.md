@@ -1,4 +1,4 @@
-# FeedHenry WFM Camera [![Build Status](https://travis-ci.org/feedhenry-raincatcher/raincatcher-camera.png)](https://travis-ci.org/feedhenry-raincatcher/raincatcher-camera)
+# FeedHenry RainCatcher Camera [![Build Status](https://travis-ci.org/feedhenry-raincatcher/raincatcher-camera.png)](https://travis-ci.org/feedhenry-raincatcher/raincatcher-camera)
 
 This module provides client services :
 - A promise based wrapper around the `window.navigator.camera.getPicture`
